@@ -68,6 +68,10 @@ img {
   background-color: #e5e5e5;
 }
 
+.calling {
+  background-color: #008DCD;
+}
+
 @media screen and (min-width: 320px) {
   .logo {
     height: 29px;
@@ -157,6 +161,83 @@ img {
   .we-sell__h2 {
     font-size: 22px;
     font-weight: 700;
+  }
+  .calling {
+    padding: 32px 20px 7px 20px;
+    color: #ffffff;
+  }
+  .calling__h2 {
+    font-size: 25px;
+    font-weight: 900;
+    padding-bottom: 11px;
+    text-transform: uppercase;
+  }
+  .calling__p {
+    font-size: 14px;
+    font-weight: 600;
+  }
+  .calling__form {
+    padding: 0;
+  }
+  .calling__tel {
+    border: 1px solid #FFFFFF;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    border-radius: 30px;
+    background-color: #008DCD;
+    padding: 0 25px;
+    color: #ffffff;
+    width: 280px;
+    height: 48px;
+    margin-bottom: 9px;
+  }
+  .calling__tel::-webkit-input-placeholder {
+    font-size: 14px;
+    color: #ffffff;
+  }
+  .calling__tel:-ms-input-placeholder {
+    font-size: 14px;
+    color: #ffffff;
+  }
+  .calling__tel::-ms-input-placeholder {
+    font-size: 14px;
+    color: #ffffff;
+  }
+  .calling__tel::placeholder {
+    font-size: 14px;
+    color: #ffffff;
+  }
+  .calling__btn {
+    border-radius: 30px;
+    background-color: #FFCC00;
+    width: 280px;
+    height: 48px;
+    border: 0;
+  }
+  .calling__label {
+    padding-top: 10px;
+    font-size: 10px;
+  }
+  .calling__chckd {
+    margin-right: 10px;
+  }
+  .reviews__h2-top {
+    font-size: 28px;
+    font-weight: 700;
+    padding-top: 21px;
+    padding-bottom: 11px;
+  }
+  .reviews__h2 {
+    font-size: 26px;
+  }
+  .reviews__h3 {
+    font-size: 18px;
+  }
+  .reviews__p {
+    font-size: 10px;
+  }
+  .reviews__p-bottom {
+    font-size: 12px;
   }
 }
 
