@@ -6,6 +6,7 @@
 body {
   font-family: 'Montserrat', sans-serif;
   min-width: 320px;
+  background-color: #e5e5e5;
 }
 
 img {
@@ -41,6 +42,7 @@ img {
   border: 0;
   height: 48px;
   color: #ffffff;
+  text-transform: uppercase;
 }
 
 .navbar {
@@ -62,6 +64,10 @@ img {
   display: flex;
 }
 
+.section__steps {
+  background-color: #e5e5e5;
+}
+
 @media screen and (min-width: 320px) {
   .logo {
     height: 29px;
@@ -73,7 +79,8 @@ img {
   }
   .header__text {
     top: 300px;
-    padding: 0 21px;
+    padding: 0 0.2rem;
+    width: 90%;
   }
   .header__menu-mini {
     background-color: #ffffff;
@@ -92,6 +99,10 @@ img {
   .header__btn {
     width: 280px;
   }
+  .nav-link {
+    font-size: 18px;
+    color: #000000;
+  }
   .about-us {
     padding-top: 18px;
     padding-bottom: 17px;
@@ -106,10 +117,11 @@ img {
     -webkit-box-ordinal-group: 0;
         -ms-flex-order: -1;
             order: -1;
+    margin-bottom: 20px;
   }
   .about-us__h3 {
-    margin-top: 25px;
-    margin-bottom: 10px;
+    padding-top: 25px;
+    padding-bottom: 10px;
     font-size: 14px;
     font-weight: 700;
     display: none;
@@ -117,11 +129,34 @@ img {
   .about-us__h3--320 {
     font-size: 21px;
     font-weight: 700;
-    margin-bottom: 17px;
+    padding-bottom: 17px;
   }
   .about-us__p {
     font-size: 12px;
     margin-bottom: 12px;
+  }
+  .section__steps {
+    padding-top: 27px;
+  }
+  .steps {
+    padding-bottom: 40px;
+  }
+  .steps__h2 {
+    padding-top: 27px;
+    padding-bottom: 7px;
+    font-size: 26px;
+    font-weight: 600;
+  }
+  .steps__p {
+    font-size: 14px;
+  }
+  .we-sell {
+    padding: 22px;
+    background-color: #F7F7F7;
+  }
+  .we-sell__h2 {
+    font-size: 22px;
+    font-weight: 700;
   }
 }
 
@@ -138,12 +173,21 @@ img {
   }
   .header__h2 {
     color: #ffffff;
+    margin-bottom: 18px;
   }
   .header__h3 {
     color: #ffffff;
+    margin-bottom: 36px;
+  }
+  .header__text {
+    width: 500px;
   }
   .navbar-nav {
     margin-left: auto;
+  }
+  .nav-link {
+    font-size: 14px;
+    color: #ffffff;
   }
   .about-us {
     background-color: #F7F7F7;
@@ -165,18 +209,34 @@ img {
   }
   .about-us__h3 {
     display: block;
+    font-size: 30px;
   }
   .about-us__h3--320 {
     display: none;
   }
+  .about-us__p {
+    font-size: 14px;
+    margin-bottom: 25px;
+  }
   .about-us__text {
-    width: 280px;
+    width: 520px;
   }
 }
 
 @media screen and (min-width: 1440px) {
   .header {
     height: 525px;
+    padding-left: 140px;
+  }
+  .header__menu-mini ul {
+    padding: 0 60px;
+  }
+  .header__text {
+    margin-top: 60px;
+  }
+  .about-us__text {
+    width: 438px;
+    margin-right: 62px;
   }
 }
 /*# sourceMappingURL=style.css.map */
