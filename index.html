@@ -303,18 +303,22 @@
     <section class="brands">
         <div id="carouselExampleControls-3" class="carousel slide" data-ride="carousel">
             <div class="carousel-inner">
-                <div class="carousel-item d-flex flex-wrap brands__box active">
-                    <div class="brands__img brands__img-1"></div>
-                    <div class="brands__img brands__img-2"></div>
-                    <div class="brands__img brands__img-3"></div>
-                    <div class="brands__img brands__img-4"></div>
-                    <div class="brands__img brands__img-5"></div>
-                    <div class="brands__img brands__img-6"></div>
+                <div class="carousel-item active">
+                    <div class="brands__box d-flex flex-wrap">
+                        <div class="brands__img brands__img-1"></div>
+                        <div class="brands__img brands__img-2"></div>
+                        <div class="brands__img brands__img-3"></div>
+                        <div class="brands__img brands__img-4"></div>
+                        <div class="brands__img brands__img-5"></div>
+                        <div class="brands__img brands__img-6"></div>
+                    </div>
                 </div>
-                <div class="carousel-item d-flex flex-wrap brands__box">
-                    <div class="brands__img brands__img-1"></div>
-                    <div class="brands__img brands__img-2"></div>
-                    <div class="brands__img brands__img-3"></div>
+                <div class="carousel-item">
+                    <div class="brands__box d-flex flex-wrap">
+                        <div class="brands__img brands__img-1"></div>
+                        <div class="brands__img brands__img-2"></div>
+                        <div class="brands__img brands__img-3"></div>
+                    </div>
                 </div>
             </div>
             <a class="carousel-control-prev" href="#carouselExampleControls-3" role="button" data-slide="prev">
@@ -328,7 +332,58 @@
         </div>
     </section>
     <!-- /.brands -->
-
+    <section class="calling-bottom">
+            <div class="container">
+                <div class="row justify-content-md-between">
+                    <div class="calling__text col-md-5 col-xs-12">
+                        <h2 class="calling__h2 calling-bottom__h2">Остались вопросы?</h2>
+                    </div>
+                    <form action="#" class="calling__form col-md-5 col-xs-12 text-center">
+                        <input type="tel" name="calling__tel" id="calling__tel-bottom" class="calling__tel calling-bottom__tel"
+                            placeholder="Ваш телефон" maxlength="15" required>
+                        <button type="submit" class="calling__btn calling-bottom__btn">заказать звонок</button>
+                        <label class="calling__label"><input type="checkbox" name="chkd__yes" id="chkd-bottom__yes"
+                                class="calling__chckd" required> Я согласен на
+                            обработку персональных данных</label>
+                    </form>
+                </div>
+            </div>
+        </section>
+    <!-- /.calling-bottom -->
+    <div class="footer">
+            <nav class="navbar navbar-expand-md">
+                    <a class="navbar-brand" href="index.html"><img src="img/logo_2.svg" alt="logo" class="logo"></a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown-2"
+                        aria-controls="navbarNavDropdown-2" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"><img src="img/icons/menu-bold.svg" alt="#"></span>
+                    </button>
+                    <div class="collapse navbar-collapse header__menu-mini footer__menu-mini" id="navbarNavDropdown-2">
+                        <ul class="navbar-nav justify-content-around">
+                            <li class="nav-item active">
+                                <a class="nav-link footer__nav-link" href="#">Главная <span class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link footer__nav-link" href="#">Отзывы</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link footer__nav-link" href="#">Гарантии</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link footer__nav-link" href="#">Описани</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link footer__nav-link" href="#">Партнеры</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link footer__nav-link" href="#">Преимущества</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link footer__nav-link" href="#">FAQ</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+    </div>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
     </script>

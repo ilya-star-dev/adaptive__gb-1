@@ -11,7 +11,7 @@
             padding: 0 0.2rem
             width: 90%
         &__menu-mini
-            background-color: #ffffff
+            background-color: $wht
             z-index: 1
         &__h2
             font-weight: 900
@@ -23,6 +23,7 @@
             margin-bottom: 17px
         &__btn
             width: 280px
+            font-weight: 700
 
     .nav-link
         font-size: 18px
@@ -69,7 +70,7 @@
 
     .calling
         padding: 32px 20px 7px 20px
-        color: #ffffff
+        color: $wht
         &__h2
             font-size: 25px
             font-weight: 900
@@ -81,24 +82,26 @@
         &__form
             padding: 0
         &__tel
-            border: 1px solid #FFFFFF
+            border: 1px solid $wht
             box-sizing: border-box
             border-radius: 30px
             background-color: $blue
             padding: 0 25px
-            color: #ffffff
+            color: $wht
             width: 280px
             height: 48px
             margin-bottom: 9px
         &__tel::placeholder
             font-size: 14px
-            color: #ffffff
+            color: $wht
         &__btn
             border-radius: 30px
             background-color: $orange
             width: 280px
             height: 48px
             border: 0
+            text-transform: uppercase
+            font-weight: 700
         &__label
             padding-top: 10px
             font-size: 10px
@@ -138,7 +141,7 @@
             height: 86px
             width: 86px
             border-radius: 50%
-            background-color: #ffffff
+            background-color: $wht
             display: flex
             justify-content: center
             align-items: center
@@ -149,7 +152,7 @@
             padding-bottom: 20px
 
     .guarantees
-        background-color: #fff
+        background-color: $wht
         min-height: 320px
         &__h2
             padding-top: 27px
@@ -181,7 +184,7 @@
             padding-bottom: 12px
         &__btn
             background-color: $blue
-            color: #ffffff
+            color: $wht
             border: 0
             width: 230px
             height: 48px
@@ -202,7 +205,7 @@
             font-weight: 700
             padding-bottom: 36px
         &__d
-            background: #FFFFFF
+            background: $wht
             border-radius: 32px
             margin-bottom: 10px
             display: flex
@@ -217,8 +220,8 @@
             outline: 0
             min-width: 280px
             min-height: 80px
-
         &__p
+
     summary::-webkit-details-marker 
         display: none
     summary:before 
@@ -233,6 +236,7 @@
     .brands
         &__box
             padding: 30px 0 30px 50px
+            min-height: 150px
         &__img 
             width: 66px
             height: 42px
@@ -255,3 +259,29 @@
         &__img-6
             background: url(img/brands-6.png) center no-repeat
             background-size: cover
+
+    .calling-bottom
+        background-color: $bgc
+        padding-top: 20px
+        &__h2
+            font-size: 18px
+            font-weight: 600
+            padding-left: 7px
+        &__tel
+            border: 1px solid $grey-dark
+            background-color: transparent
+        &__tel::placeholder
+            color: $grey-dark
+        &__btn
+            background-color: $blue
+            color: $wht
+
+    .footer
+        background-color: $bgc
+        &__menu-mini
+            width: 100%
+            top: -300px
+            left: 0
+            position: absolute
+            background-color: $grey-light
+            padding-left: 10px

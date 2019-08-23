@@ -91,7 +91,7 @@ img {
     width: 90%;
   }
   .header__menu-mini {
-    background-color: #ffffff;
+    background-color: #FFFFFF;
     z-index: 1;
   }
   .header__h2 {
@@ -106,6 +106,7 @@ img {
   }
   .header__btn {
     width: 280px;
+    font-weight: 700;
   }
   .nav-link {
     font-size: 18px;
@@ -168,7 +169,7 @@ img {
   }
   .calling {
     padding: 32px 20px 7px 20px;
-    color: #ffffff;
+    color: #FFFFFF;
   }
   .calling__h2 {
     font-size: 25px;
@@ -190,26 +191,26 @@ img {
     border-radius: 30px;
     background-color: #008DCD;
     padding: 0 25px;
-    color: #ffffff;
+    color: #FFFFFF;
     width: 280px;
     height: 48px;
     margin-bottom: 9px;
   }
   .calling__tel::-webkit-input-placeholder {
     font-size: 14px;
-    color: #ffffff;
+    color: #FFFFFF;
   }
   .calling__tel:-ms-input-placeholder {
     font-size: 14px;
-    color: #ffffff;
+    color: #FFFFFF;
   }
   .calling__tel::-ms-input-placeholder {
     font-size: 14px;
-    color: #ffffff;
+    color: #FFFFFF;
   }
   .calling__tel::placeholder {
     font-size: 14px;
-    color: #ffffff;
+    color: #FFFFFF;
   }
   .calling__btn {
     border-radius: 30px;
@@ -217,6 +218,8 @@ img {
     width: 280px;
     height: 48px;
     border: 0;
+    text-transform: uppercase;
+    font-weight: 700;
   }
   .calling__label {
     padding-top: 10px;
@@ -266,7 +269,7 @@ img {
     height: 86px;
     width: 86px;
     border-radius: 50%;
-    background-color: #ffffff;
+    background-color: #FFFFFF;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -285,7 +288,7 @@ img {
     padding-bottom: 20px;
   }
   .guarantees {
-    background-color: #fff;
+    background-color: #FFFFFF;
     min-height: 320px;
   }
   .guarantees__h2 {
@@ -335,7 +338,7 @@ img {
   }
   .guarantees__btn {
     background-color: #008DCD;
-    color: #ffffff;
+    color: #FFFFFF;
     border: 0;
     width: 230px;
     height: 48px;
@@ -402,6 +405,7 @@ img {
   }
   .brands__box {
     padding: 30px 0 30px 50px;
+    min-height: 150px;
   }
   .brands__img {
     width: 66px;
@@ -431,6 +435,46 @@ img {
   .brands__img-6 {
     background: url(img/brands-6.png) center no-repeat;
     background-size: cover;
+  }
+  .calling-bottom {
+    background-color: #E9E9E9;
+    padding-top: 20px;
+  }
+  .calling-bottom__h2 {
+    font-size: 18px;
+    font-weight: 600;
+    padding-left: 7px;
+  }
+  .calling-bottom__tel {
+    border: 1px solid #363636;
+    background-color: transparent;
+  }
+  .calling-bottom__tel::-webkit-input-placeholder {
+    color: #363636;
+  }
+  .calling-bottom__tel:-ms-input-placeholder {
+    color: #363636;
+  }
+  .calling-bottom__tel::-ms-input-placeholder {
+    color: #363636;
+  }
+  .calling-bottom__tel::placeholder {
+    color: #363636;
+  }
+  .calling-bottom__btn {
+    background-color: #008DCD;
+    color: #FFFFFF;
+  }
+  .footer {
+    background-color: #E9E9E9;
+  }
+  .footer__menu-mini {
+    width: 100%;
+    top: -300px;
+    left: 0;
+    position: absolute;
+    background-color: #e1e1e1;
+    padding-left: 10px;
   }
 }
 
@@ -494,6 +538,10 @@ img {
   }
   .about-us__text {
     width: 520px;
+  }
+  .footer__nav-link {
+    font-size: 18px;
+    color: #363636;
   }
 }
 
