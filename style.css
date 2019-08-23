@@ -72,6 +72,10 @@ img {
   background-color: #008DCD;
 }
 
+.reviews {
+  position: relative;
+}
+
 @media screen and (min-width: 320px) {
   .logo {
     height: 29px;
@@ -221,11 +225,21 @@ img {
   .calling__chckd {
     margin-right: 10px;
   }
+  .reviews {
+    min-height: 450px;
+  }
   .reviews__h2-top {
     font-size: 28px;
     font-weight: 700;
     padding-top: 21px;
     padding-bottom: 11px;
+  }
+  .reviews__box {
+    padding-right: 0;
+    padding-left: 10px;
+  }
+  .reviews__text {
+    padding-left: 7px;
   }
   .reviews__h2 {
     font-size: 26px;
@@ -238,6 +252,10 @@ img {
   }
   .reviews__p-bottom {
     font-size: 12px;
+    padding-top: 14px;
+  }
+  .carousel-item {
+    padding: 0  10px 0 20px;
   }
 }
 

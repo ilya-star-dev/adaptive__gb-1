@@ -8,7 +8,7 @@
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,600,700,900&display=swap" rel="stylesheet">
-    <title>Hello, world!</title>
+    <title>SendIt</title>
 </head>
 
 <body>
@@ -115,33 +115,33 @@
         </div>
     </section>
     <!-- /.calling -->
-    <section class="section__reviews">
+    <section class="reviews">
         <span id="carouselExampleControls" class="carousel slide" data-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
                     <h2 class="reviews__h2-top">Отзывы</h2>
                     <div class="container d-flex flex-column flex-md-row">
                         <div class="row">
-                            <div class="row col-md-6 justify-content-around">
+                            <div class="row col-md-6 col-xs-6 reviews__box">
                                 <img src="img/reviews-1.jpg" class="d-block col-xs-6" alt="img">
-                                <div class="reviews col-xs-6">
+                                <div class="reviews__text col-xs-6">
                                     <h2 class="reviews__h2">Дарья</h2>
                                     <h3 class="reviews__h3">La Intuicion</h3>
                                     <p class="reviews__p">Посылка: товары</p>
                                     <p class="reviews__p">Откуда: Москва</p>
                                     <p class="reviews__p">Куда: Нижневартовск</p>
                                 </div>
-                                <p class="reviews__p-bottom col-xs-6">Отличный и качественный сервис. Долго искали
-                                    курьерскую службу для
-                                    доставки наших товаров. Решили попробовать и были приятно удивлены, что помимо
-                                    удобного
-                                    сайта, компания предоставляет доступ в личный кабинет, где реализованы многие наши
+                                <p class="reviews__p-bottom col-xs-12">Отличный и качественный сервис. Долго искали
+                                    курьерскую службу для доставки наших товаров. Решили попробовать и были приятно
+                                    удивлены, что помимо
+                                    удобного сайта, компания предоставляет доступ в личный кабинет, где реализованы
+                                    многие наши
                                     потребности (ведение адресной базы, выбор и вызов курьера в пару кликов).</p>
                             </div>
                             <div class="container d-none d-md-block col-md-6">
                                 <div class="row justify-content-around">
                                     <img src="img/reviews-2.jpg" class="d-block col-xs-6" alt="img">
-                                    <div class="reviews col-xs-6">
+                                    <div class="reviews__text col-xs-6">
                                         <h2 class="reviews__h2">Елена</h2>
                                         <h3 class="reviews__h3">Global Logic</h3>
                                         <p class="reviews__p">Посылка: товары</p>
@@ -160,12 +160,12 @@
                         </div>
                     </div>
                 </div>
-                <!-- <div class="carousel-item">
+                <div class="carousel-item">
                     <div class="container">
                         <h2 class="reviews__h2-top">Отзывы</h2>
                         <div class="row justify-content-around">
                             <img src="img/reviews-2.jpg" class="d-block col-xs-6" alt="img">
-                            <div class="reviews col-xs-6">
+                            <div class="reviews__text col-xs-6">
                                 <h2 class="reviews__h2">Елена</h2>
                                 <h3 class="reviews__h3">Global Logic</h3>
                                 <p class="reviews__p">Посылка: товары</p>
@@ -178,7 +178,7 @@
                             компаний и самый значимый фактор – всё это можно оперативно организовать и не волноваться. И
                             ещё хочу сказать отдельное спасибо менеджеру за отзывчивость.</p>
                     </div>
-                </div> -->
+                </div>
             </div>
             <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -191,7 +191,37 @@
         </span>
     </section>
     <!-- /.reviews -->
-
+    <section class="advantages">
+        <h2 class="advantages__h2">НАШИ ПРЕИМУЩЕСТВА</h2>
+        <div class="container">
+            <div class="row kustify-content-between">
+                <div class="advantages__box-1 col-4 col-md-2">
+                    <img src="img/icons/car_1.svg" alt="img" class="advantages__img">
+                    <p class="advantages_p">Бесплатный сервис</p>
+                </div>
+                <div class="advantages__box-2 col-4 col-md-2">
+                    <img src="img/icons/list_1.svg" alt="img" class="advantages__img">
+                    <p class="advantages_p">Огромный выбор вариантов доставки</p>
+                </div>
+                <div class="advantages__box-3 col-4 col-md-2">
+                    <img src="img/icons/star_1.svg" alt="img" class="advantages__img">
+                    <p class="advantages_p">4 параметра лучшего предложения</p>
+                </div>
+                <div class="advantages__box-4 col-4 col-md-2">
+                    <img src="img/icons/hand_1.svg" alt="img" class="advantages__img">
+                    <p class="advantages_p">Удобство заказа</p>
+                </div>
+                <div class="advantages__box-5 col-4 col-md-2">
+                    <img src="img/icons/operator_1.svg" alt="img" class="advantages__img">
+                    <p class="advantages_p">Online-поддержка</p>
+                </div>
+                <div class="advantages__box-6 col-4 col-md-2">
+                    <img src="img/icons/qr_code_1.svg" alt="img" class="advantages__img">
+                    <p class="advantages_p">Единый номер отслеживания</p>
+                </div>
+            </div>
+        </div>
+    </section>
 
 
 
