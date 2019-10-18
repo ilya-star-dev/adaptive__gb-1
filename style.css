@@ -93,6 +93,7 @@ img {
   .header__menu-mini {
     background-color: #FFFFFF;
     z-index: 1;
+    width: 100%;
   }
   .header__h2 {
     font-weight: 900;
@@ -404,7 +405,7 @@ img {
     border-radius: 0;
   }
   .brands__box {
-    padding: 30px 0 30px 50px;
+    padding: 30px 0 30px 60px;
     min-height: 150px;
   }
   .brands__img {
@@ -470,10 +471,9 @@ img {
   }
   .footer__menu-mini {
     width: 100%;
-    top: -300px;
+    top: -525px;
     left: 0;
     position: absolute;
-    background-color: #e1e1e1;
     padding-left: 10px;
   }
 }
@@ -542,6 +542,12 @@ img {
   .footer__nav-link {
     font-size: 18px;
     color: #363636;
+  }
+  .footer__menu-mini {
+    position: static;
+  }
+  .menu-hide {
+    display: none !important;
   }
 }
 
